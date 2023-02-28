@@ -40,17 +40,20 @@ function toggleModal() {
     document.body.classList += " modal__open";
 }
 
-function toggleContrast() {
-    contrastToggle = !contrastToggle;
-    if(contrastToggle) {
-        document.body.classList += " dark-theme"
-    }
-    else {
-        document.body.classList.remove("dark-theme");
-    }
+// function toggleContrast() {
+//     contrastToggle = !contrastToggle;
+//     if(contrastToggle) {
+//         document.body.classList += " dark-theme"
+//     }
+//     else {
+//         document.body.classList.remove("dark-theme");
+//     }
     
-}
+// }
+function toggleDarkMode() {
 
+    document.body.classList.toggle('dark-theme');
+}
 
 
   
