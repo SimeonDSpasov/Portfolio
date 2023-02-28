@@ -127,12 +127,16 @@ section {
 }
 .title--secondary,
  .green {
-    color: #36bd1b;
+    background: -webkit-linear-gradient(#36bd1b, #3c643a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 
 }
 .dark-theme .title.title--secondary {
     color: #36bd1b;
+    
+    
     
 }
     /* NAVIGATION */
